@@ -1,6 +1,6 @@
 import pygame
 import torch
-from model.game_of_life import GameOfLife
+from src.model.game_of_life import GameOfLife
 
 class GameOfLifeVisualizer:
     def __init__(self, cell_size=50, width=500, height=500, frame_rate=10):
