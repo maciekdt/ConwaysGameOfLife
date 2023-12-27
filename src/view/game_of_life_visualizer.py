@@ -3,7 +3,7 @@ import torch
 from src.model.game_of_life import GameOfLife
 
 class GameOfLifeVisualizer:
-    def __init__(self, cell_size=50, width=500, height=500, frame_rate=10):
+    def __init__(self, cell_size=50, width=350, height=350, frame_rate=10):
         pygame.init()
         self.cell_size = cell_size
         self.grid_size = width // cell_size
