@@ -1,4 +1,6 @@
 # Predicting Conway's Game of Life Using a Convolutional Neural Network
+
+## Introduction
 This project was born out of curiosity: can a neural network handle the chaotic and complex nature of **Conway's Game of Life**?
 As a cellular automaton that is Turing complete, Conway's Game of Life has fascinated researchers with its potential to simulate computation.
 Inspired by concepts such as *Conway's Game within Conway's Game*—where structures are crafted by humans to perform computations—I wondered if a neural network could independently discover simple 
