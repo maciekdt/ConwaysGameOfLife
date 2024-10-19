@@ -41,6 +41,7 @@ While predicting the exact evolution of any arbitrary object in Conway’s Game 
 The network is able to capture some of the simpler patterns and make reasonable predictions for future states.
 
 Here are examples of some simple patterns, their evolution and CNN prediction:
+
 ![image](https://github.com/user-attachments/assets/bd384434-90d5-4682-abd0-73ba0bb0f776)
 
 
