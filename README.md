@@ -24,6 +24,8 @@ The cells were clustered close together to generate more interesting, less dispe
 Fragment of the dataset contains both the initial state and the evolved state after 20 steps:
 
 ![image](https://github.com/user-attachments/assets/81356770-8257-441d-aa72-11fc7f86d3da)
+
+
   
 Histograms representing the number of live cells in both the initial and evolved states (after filtering out empty states): 
 
@@ -39,6 +41,7 @@ Training took place over several dozen epochs on my local GPU.
 ## Results
 While predicting the exact evolution of any arbitrary object in Conway’s Game of Life is a challenging problem, the results so far look **promising**.
 The network is able to capture some of the simpler patterns and make reasonable predictions for future states.
+
 
 Here are examples of some simple patterns, their evolution and CNN prediction:
 
