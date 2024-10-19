@@ -34,8 +34,8 @@ Histograms representing the number of live cells in both the initial and evolved
 The dataset contains approximately **1,000,000 examples**.
 
 ## Training Process 
-The neural network was composed of 7 convolutional layers with increasing filter sizes, as follows: 32-32-64-128-128-128-128, followed by a fully connected layer.
-The network was trained using cross-entropy loss, with training continuing until the change in loss was smaller than 0.0001 for three consecutive epochs.
+The neural network was composed of mulitiple convolutional layers followed by a fully connected linear layer.
+The network was trained using cross-entropy loss, with training continuing until the minimum loss decrease.
 Training took place over several dozen epochs on my local GPU.
 
 ## Results
