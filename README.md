@@ -15,7 +15,7 @@ These grids were evolved forward by 20 steps, with the network tasked with predi
 ## Data Generation Process
 The process of generating dataset for training was computationally intensive, especially for larger grids or more steps.
 To optimize it, I implemented a matrix-based algorithm for Conway's Game of Life. 
-Generating these patterns was computationally expensive, especially as about 80% of random patterns on a 7x7 board are not stable and evolve into empty boards within 20 steps. 
+Anyway generating these patterns was computationally expensive, especially as about 80% of random patterns on a 7x7 board are not stable and evolve into empty boards within 20 steps. 
 To avoid unbalancing the dataset, I discarded around 95% of the patterns that evolved to empty boards.
 
 The initial number of live cells on the board was sampled from a normal distribution.
