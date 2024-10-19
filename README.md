@@ -20,10 +20,12 @@ To avoid unbalancing the dataset, I discarded around 95% of the patterns that ev
 The initial number of live cells on the board was sampled from a normal distribution.
 The cells were clustered close together to generate more interesting, less dispersed structures.
   
-### Fragment of the dataset contains both the initial state and the evolved state after 20 steps:
+Fragment of the dataset contains both the initial state and the evolved state after 20 steps:
+
 ![image](https://github.com/user-attachments/assets/81356770-8257-441d-aa72-11fc7f86d3da)
   
-### Histograms representing the number of live cells in both the initial and evolved states (after filtering out empty states): 
+Histograms representing the number of live cells in both the initial and evolved states (after filtering out empty states): 
+
 ![image](https://github.com/user-attachments/assets/8909a418-0863-4b6e-bc3d-22e359c395f0)
   
 The dataset contains approximately **1,000,000 examples**.
@@ -38,13 +40,6 @@ While predicting the exact evolution of any arbitrary object in Conway’s Game 
 The network is able to capture some of the simpler patterns and make reasonable predictions for future states.
 
 Here are examples of some simple patterns, their evolution and CNN prediction:
-### Example 1 - the simplest stable patterns:
-![image](https://github.com/user-attachments/assets/47093d44-8675-4180-b55e-b1de09d03686)
-  
-### Example 2 - more complex stable patterns:
-![image](https://github.com/user-attachments/assets/b8a59f75-f1c5-49e4-adfa-237a371d00f3)
-  
-### Example 3 - blinkers and other changable patterns:
 ![image](https://github.com/user-attachments/assets/bd384434-90d5-4682-abd0-73ba0bb0f776)
 
 
