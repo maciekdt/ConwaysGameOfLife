@@ -45,7 +45,7 @@ The network is able to capture some of the simpler patterns and make reasonable 
 
 Here are examples of some simple patterns, their evolution and CNN prediction:
 
-![image](https://github.com/user-attachments/assets/bd384434-90d5-4682-abd0-73ba0bb0f776)
+![image](https://github.com/user-attachments/assets/45a8123c-7c65-4c9f-9c39-cc5802563df3)
 
 
 ## Next Steps
