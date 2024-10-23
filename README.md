@@ -40,7 +40,7 @@ Training took place over several dozen epochs on my local GPU.
 
 ## Results
 While predicting the exact evolution of any arbitrary object in Conway’s Game of Life is a challenging problem, the results so far look **promising**.
-The network is able to capture some of the simpler patterns and make reasonable predictions for more complex states.
+The network is able to predict some of the simpler patterns and make reasonable predictions for more complex ones.
 
 
 Here are examples of some simple patterns, their evolution and CNN prediction:
