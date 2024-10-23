@@ -23,7 +23,8 @@ The cells were clustered close together to generate more interesting, less dispe
   
 Fragment of the dataset contains both the initial state and the evolved state after 20 steps:
 
-![image](https://github.com/user-attachments/assets/2408ece1-d460-4029-af18-61f1f1559599)
+![image](https://github.com/user-attachments/assets/cc79b37f-13e0-4cde-831d-a228390aa281)
+
 
 
 
