@@ -2,7 +2,7 @@
 
 This project was born out of curiosity: can a neural network handle the chaotic and complex nature of **Conway's Game of Life**?
 As a cellular automaton that is Turing complete, Conway's Game of Life has fascinated researchers with its potential to simulate computation.
-Inspired by concepts such as *Conway's Game within Conway's Game*—where structures are crafted by humans to perform computations—I wondered if a neural network could independently discover simple 
+Inspired by concepts such as [Conway's Game within Conway's Game](https://youtu.be/xP5-iIeKXE8?si=pPtbJEaIzMKQ3KZT) where structures are crafted by humans to perform computations—I wondered if a neural network could independently discover simple 
 computational machines in this environment. 
 
 However, this project starts simpler: focusing first on how a network can predict the evolution of objects in the Game of Life over time.
